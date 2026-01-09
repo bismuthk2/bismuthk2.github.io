@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bismuthk2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/twemoji@latest/dist/twemoji.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      color: #fff;
+      background: #000;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+    }
+
+    a:hover {
+      opacity: 0.7;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    header img.icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #fff;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .about {
+      max-width: 700px;
+      margin: 0 auto 3rem;
+      text-align: center;
+    }
+
+    .projects {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .project-list {
+      display: grid;
+      gap: 2rem;
+    }
+
+    .project-card {
+      border: 1px solid #fff;
+      padding: 1.5rem;
+    }
+
+    .project-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    img.emoji {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.145em;
+      display: inline-block;
+      margin: 0 0.05em;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://avatars.githubusercontent.com/u/182077455?v=4" alt="bismuthk2" class="icon">
+    <h1>Ali Hussein</h1>
+    <p>Web Developer & Software Engineer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm a web developer who makes clean, minimal websites with polished user interfaces. I build efficient, and maintainable web apps, often from scratch; using Typescript, or using modern frameworks.</p>
+  </section>
+
+  <section class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-list">
+
+      <div class="project-card">
+        <h3>Placeholder 1</h3>
+        <p>Nothing to view here at the moment.</p>
+        <a href="https://github.com/bismuthk2/repo1" target="_blank">View on GitHub -></a>
+      </div>
+
+      <div class="project-card">
+        <h3>Placeholder 2</h3>
+        <p>Nothing to view here at the moment.</p>
+        <a href="https://github.com/bismuthk2/repo2" target="_blank">View on GitHub -></a>
+      </div>
+
+      <div class="project-card">
+        <h3>Placeholder 3</h3>
+        <p>Nothing to view here at the moment.</p>
+        <a href="https://github.com/bismuthk2/repo3" target="_blank">View on GitHub -></a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Connect with me on <a href="https://github.com/bismuthk2" target="_blank">GitHub</a>, or <a href="https://www.linkedin.com/in/ali-hussein-b8a7573a4" target="_blank">LinkedIn</a> | Email: <a href="mailto:sxdk.work@gmail.com">sxdk.work@gmail.com</a></p>
+  </footer>
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    twemoji.parse(document.body, {
+      folder: 'svg',
+      ext: '.svg',
+      className: 'emoji'
+    });
+  });
+</script>
+</body>
+</html>
